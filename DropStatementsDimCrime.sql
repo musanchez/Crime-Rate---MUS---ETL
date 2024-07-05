@@ -18,3 +18,6 @@ IF OBJECT_ID('DimWeapon', 'U') IS NOT NULL
 
 IF OBJECT_ID('DimStatus', 'U') IS NOT NULL
     DROP TABLE DimStatus;
+
+IF OBJECT_ID('DimPremis', 'U') IS NOT NULL
+    DROP TABLE DimPremis;

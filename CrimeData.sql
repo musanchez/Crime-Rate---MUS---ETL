@@ -27,6 +27,7 @@ CREATE TABLE CrimeData (
 	[Weapon_Used_Cd] [smallint] NULL,
 	[Weapon_Desc] [nvarchar](100) NULL,
 	[Status] [nvarchar](100) NULL,
+	[LOCATION] [nvarchar](max) NULL,
 	[Status_Desc] [nvarchar](max) NULL,
 	[Cross_Street] [nvarchar](max) NULL,
 	[LAT] decimal(8,4) NULL,

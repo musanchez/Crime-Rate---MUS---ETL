@@ -1,0 +1,2 @@
+SELECT DISTINCT Vict_Descent
+FROM CrimeData

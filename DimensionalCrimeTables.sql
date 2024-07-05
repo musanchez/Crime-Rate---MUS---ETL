@@ -1,17 +1,17 @@
 CREATE TABLE DimVictSex (
-    Vict_Sex_Id SMALLINT IDENTITY(1,1) PRIMARY KEY,
+    Vict_Sex_Id SMALLINT PRIMARY KEY,
     Vict_Sex NVARCHAR(50)
 );
 
 
 CREATE TABLE DimVictDescent (
-    Vict_Descent_Id SMALLINT IDENTITY(1,1) PRIMARY KEY,
+    Vict_Descent_Id SMALLINT PRIMARY KEY,
     Vict_Descent NVARCHAR(50)
 );
 
 
 CREATE TABLE DimDateRptd (
-    Date_Rptd_Id INT IDENTITY(1,1) PRIMARY KEY,
+    Date_Rptd_Id INT PRIMARY KEY,
     Date_Rptd DATE
 );
 
@@ -29,6 +29,11 @@ CREATE TABLE DimWeapon (
 CREATE TABLE DimStatus (
     Status NVARCHAR(100) PRIMARY KEY,
     Status_Desc NVARCHAR(MAX)
+);
+
+CREATE TABLE DimPremis (
+    Premis_Cd SMALLINT PRIMARY KEY,
+    Premis_Desc NVARCHAR(100)
 );
 
 CREATE TABLE FactCrime (
@@ -56,5 +61,6 @@ CREATE TABLE FactCrime (
     CONSTRAINT FK_FactCrime_DimVictSex FOREIGN KEY (Vict_Sex_Id) REFERENCES DimVictSex(Vict_Sex_Id),
     CONSTRAINT FK_FactCrime_DimVictDescent FOREIGN KEY (Vict_Descent_Id) REFERENCES DimVictDescent(Vict_Descent_Id),
     CONSTRAINT FK_FactCrime_DimWeapon FOREIGN KEY (Weapon_Used_Cd) REFERENCES DimWeapon(Weapon_Used_Cd),
-    CONSTRAINT FK_FactCrime_DimStatus FOREIGN KEY (Status) REFERENCES DimStatus(Status)
+    CONSTRAINT FK_FactCrime_DimStatus FOREIGN KEY (Status) REFERENCES DimStatus(Status),
+    CONSTRAINT FK_FactCrime_DimPremis FOREIGN KEY (Premis_Cd) REFERENCES DimPremis(Premis_Cd)
 );

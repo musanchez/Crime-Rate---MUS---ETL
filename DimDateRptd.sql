@@ -1,0 +1,2 @@
+SELECT DISTINCT Date_Rptd
+FROM CrimeData

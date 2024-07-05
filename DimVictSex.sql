@@ -1,0 +1,2 @@
+SELECT DISTINCT Vict_Sex
+FROM CrimeData

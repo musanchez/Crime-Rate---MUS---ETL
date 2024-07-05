@@ -36,8 +36,8 @@ try:
     data['TIME_OCC'] = data['TIME_OCC'].astype(int)
     data['Weapon_Used_Cd'] = data['Weapon_Used_Cd'].fillna(0).astype(int)
     data['Weapon_Desc'] = data['Weapon_Desc'].fillna('No aplica')
-    data['Vict_Sex'] = data['Vict_Sex'].fillna('No aplica')
-    data['Vict_Descent'] = data['Vict_Descent'].fillna('No aplica')
+    data['Vict_Sex'] = data['Vict_Sex'].fillna('-')
+    data['Vict_Descent'] = data['Vict_Descent'].fillna('-')
     data['Mocodes'] = data['Mocodes'].fillna('No aplica')
     data['Vict_Age'] = data['Vict_Age'].fillna(0).astype(int)
     data.loc[(data['Vict_Age'] < 0) | (data['Vict_Age'] > 99), 'Vict_Age'] = 0
@@ -48,6 +48,12 @@ try:
     data['LAT'] = pd.to_numeric(data['LAT'], errors='coerce').fillna(0).astype(float)
     data['LON'] = pd.to_numeric(data['LON'], errors='coerce').fillna(0).astype(float)
     data.drop(columns=['Crm_Cd_1', 'Crm_Cd_2', 'Crm_Cd_3', 'Crm_Cd_4'], inplace=True)
+    data['Premis_Desc'] = data['Premis_Desc'].fillna('-')
+    data['Premis_Cd'] = data['Premis_Cd'].fillna(418).astype(int)
+    data['Status_Desc'] = data['Status_Desc'].fillna('-')
+    data.loc[data['Premis_Desc'] == '-', 'Premis_Cd'] = 256
+    data['Status'] = data['Status'].fillna('CC').str.upper()
+    
     logging.info('Datos limpios y transformados')
 
     # Carga de datos a la base de datos final en fragmentos
