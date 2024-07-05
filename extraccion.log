@@ -119,3 +119,18 @@
 2024-07-05 01:59:04,063 - Fragmento 96 de 96 cargado
 2024-07-05 01:59:04,063 - Datos cargados a la base de datos final de SQL Server
 2024-07-05 01:59:04,064 - Conexión cerrada
+2024-07-05 03:18:12,530 - Intentando conectar a la base de datos...
+2024-07-05 03:18:12,557 - Ejecutando SQL: SELECT * FROM StagingCrimeData
+2024-07-05 03:18:38,924 - Extracción exitosa
+2024-07-05 03:18:48,034 - Datos limpios y transformados
+2024-07-05 03:18:48,034 - Iniciando carga de datos...
+2024-07-05 03:18:50,911 - Fragmento 1 de 96 cargado
+2024-07-05 03:18:52,568 - Fragmento 2 de 96 cargado
+2024-07-05 03:18:54,295 - Fragmento 3 de 96 cargado
+2024-07-05 03:18:56,355 - Fragmento 4 de 96 cargado
+2024-07-05 03:18:58,751 - Fragmento 5 de 96 cargado
+2024-07-05 03:19:01,694 - Fragmento 6 de 96 cargado
+2024-07-05 03:19:05,544 - Fragmento 7 de 96 cargado
+2024-07-05 03:19:07,887 - Fragmento 8 de 96 cargado
+2024-07-05 03:19:08,022 - Error: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2024-07-05 03:19:08,023 - Conexión cerrada

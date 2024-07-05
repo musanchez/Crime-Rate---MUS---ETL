@@ -1,3 +1,12 @@
+USE Crime;
+
+-- Verificar si la tabla CrimeData existe
+IF OBJECT_ID('CrimeData', 'U') IS NOT NULL
+BEGIN
+    -- Si existe, dropear la tabla
+    DROP TABLE CrimeData;
+END
+
 CREATE TABLE CrimeData (
 	[DR_NO] [nvarchar](100) NOT NULL,
 	[Date_Rptd] [date] NULL,
