@@ -7,10 +7,10 @@
 2024-07-05 13:35:41,352 - INFO - Script ejecutado correctamente: DropStatementsDimCrime.sql
 2024-07-05 13:35:41,353 - INFO - Ejecutando script: DimensionalCrimeTables.sql
 2024-07-05 13:35:41,368 - INFO - Script ejecutado correctamente: DimensionalCrimeTables.sql
-2024-07-05 13:35:41,369 - INFO - Conexión cerrada.
+2024-07-05 13:35:41,369 - INFO - Conexiï¿½n cerrada.
 2024-07-05 13:35:42,224 - Intentando conectar a la base de datos...
 2024-07-05 13:35:42,245 - Ejecutando SQL: SELECT * FROM StagingCrimeData
-2024-07-05 13:36:02,817 - Extracción exitosa
+2024-07-05 13:36:02,817 - Extracciï¿½n exitosa
 2024-07-05 13:36:08,270 - Datos limpios y transformados
 2024-07-05 13:36:08,270 - Iniciando carga de datos...
 2024-07-05 13:36:09,914 - Fragmento 1 de 96 cargado
@@ -110,7 +110,7 @@
 2024-07-05 13:38:27,996 - Fragmento 95 de 96 cargado
 2024-07-05 13:38:28,262 - Fragmento 96 de 96 cargado
 2024-07-05 13:38:28,262 - Datos cargados a la base de datos final de SQL Server
-2024-07-05 13:38:28,263 - Conexión cerrada
+2024-07-05 13:38:28,263 - Conexiï¿½n cerrada
 2024-07-05 13:38:28,950 - INFO - Ejecutando script 'DimArea.sql' en la base de datos 'Crime'.
 2024-07-05 13:38:29,100 - INFO - Script 'DimArea.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:29,100 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimArea.sql'.
@@ -120,7 +120,7 @@
 2024-07-05 13:38:29,200 - INFO - Script 'DimDateRptd.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:29,202 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimDateRptd.sql'.
 2024-07-05 13:38:29,203 - INFO - Insertando datos en la tabla 'DimDateRptd'.
-2024-07-05 13:38:29,527 - INFO - Insertadas 1623 filas en 'DimDateRptd' sin el valor de identity.
+2024-07-05 13:38:29,527 - INFO - Insertadas 1623 filas en 'DimDateRptd'.
 2024-07-05 13:38:29,528 - INFO - Ejecutando script 'DimPremis.sql' en la base de datos 'Crime'.
 2024-07-05 13:38:29,705 - INFO - Script 'DimPremis.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:29,706 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimPremis.sql'.
@@ -135,20 +135,20 @@
 2024-07-05 13:38:30,778 - INFO - Script 'DimVictDescent.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:30,779 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictDescent.sql'.
 2024-07-05 13:38:30,779 - INFO - Insertando datos en la tabla 'DimVictDescent'.
-2024-07-05 13:38:30,790 - INFO - Insertadas 20 filas en 'DimVictDescent' sin el valor de identity.
+2024-07-05 13:38:30,790 - INFO - Insertadas 20 filas en 'DimVictDescent'.
 2024-07-05 13:38:30,790 - INFO - Ejecutando script 'DimVictSex.sql' en la base de datos 'Crime'.
 2024-07-05 13:38:30,937 - INFO - Script 'DimVictSex.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:30,937 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictSex.sql'.
 2024-07-05 13:38:30,938 - INFO - Insertando datos en la tabla 'DimVictSex'.
-2024-07-05 13:38:30,941 - INFO - Insertadas 5 filas en 'DimVictSex' sin el valor de identity.
+2024-07-05 13:38:30,941 - INFO - Insertadas 5 filas en 'DimVictSex'.
 2024-07-05 13:38:30,942 - INFO - Ejecutando script 'DimWeapon.sql' en la base de datos 'Crime'.
 2024-07-05 13:38:31,165 - INFO - Script 'DimWeapon.sql' ejecutado correctamente en 'Crime'.
 2024-07-05 13:38:31,166 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimWeapon.sql'.
 2024-07-05 13:38:31,166 - INFO - Insertando datos en la tabla 'DimWeapon'.
 2024-07-05 13:38:31,237 - INFO - Insertadas 80 filas en 'DimWeapon'.
-2024-07-05 13:38:31,237 - INFO - Conexión cerrada.
+2024-07-05 13:38:31,237 - INFO - Conexiï¿½n cerrada.
 2024-07-05 13:38:31,393 - INFO - Intentando conectar a la base de datos...
 2024-07-05 13:38:31,467 - INFO - Ejecutando script SQL: FactCrime.sql
 2024-07-05 13:38:47,667 - INFO - Cambiando a la base de datos destino: DimensionalCrime
 2024-07-05 13:44:28,936 - INFO - Insertados registros en FactCrime
-2024-07-05 13:44:28,936 - INFO - Conexión cerrada.
+2024-07-05 13:44:28,936 - INFO - Conexiï¿½n cerrada.
