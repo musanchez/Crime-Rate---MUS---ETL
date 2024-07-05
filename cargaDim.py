@@ -43,7 +43,7 @@ try:
         table_name = sql_file.split('.')[0]
         logging.info(f"Insertando datos en la tabla '{table_name}'.")
         
-        # Verificar si la tabla tiene una columna identity
+        # Verificar si la tabla tiene una primary key generada
         has_identity = table_name in ['DimVictSex', 'DimDateRptd', 'DimVictDescent']
         
         if has_identity:
@@ -53,7 +53,7 @@ try:
                 insert_query = f"INSERT INTO {table_name} VALUES ({', '.join(['?'] * (len(row)))})"
                 cursor.execute(insert_query, row) 
                 id += 1
-            logging.info(f"Insertadas {len(data)} filas en '{table_name}' sin el valor de identity.")
+            logging.info(f"Insertadas {len(data)} filas en '{table_name}'")
         else:
             for row in data:
                 insert_query = f"INSERT INTO {table_name} VALUES ({', '.join(['?'] * len(row))})"
