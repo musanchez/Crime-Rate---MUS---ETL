@@ -12,7 +12,7 @@ DATABASE_NAME = 'Crime'
 connection_string = f'mssql+pyodbc://@{SERVER_NAME}/{DATABASE_NAME}?driver={DRIVER_NAME}&trusted_connection=yes'
 
 # Configuración del registro de logs
-logging.basicConfig(filename='extraccion.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='ETLCrime.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 try:
     # Intentando conectar a la base de datos
@@ -28,7 +28,6 @@ try:
     logging.info(f'Ejecutando SQL: {sql}')
     data = pd.read_sql(sql, engine)
     logging.info('Extracción exitosa')
-    print('Extracción exitosa')
 
     # Limpieza y transformación de datos
     data['Date_Rptd'] = pd.to_datetime(data['Date_Rptd']).dt.date
@@ -65,7 +64,6 @@ try:
         logging.info(f'Fragmento {i//chunksize + 1} de {len(data)//chunksize + 1} cargado')
 
     logging.info('Datos cargados a la base de datos final de SQL Server')
-    print('Datos cargados exitosamente')
 
 except SQLAlchemyError as e:
     logging.error(f"Error: {e}")
@@ -77,4 +75,3 @@ finally:
         logging.info('Conexión cerrada')
     except SQLAlchemyError as e:
         logging.error(f"Error al cerrar la conexión: {e}")
-    print("Conexión cerrada")
