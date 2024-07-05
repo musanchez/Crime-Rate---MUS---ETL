@@ -659,3 +659,106 @@
 2024-07-05 12:00:34,860 - Fragmento 96 de 96 cargado
 2024-07-05 12:00:34,860 - Datos cargados a la base de datos final de SQL Server
 2024-07-05 12:00:34,861 - Conexión cerrada
+2024-07-05 12:57:35,517 - Intentando conectar a la base de datos...
+2024-07-05 12:57:35,537 - Ejecutando SQL: SELECT * FROM StagingCrimeData
+2024-07-05 12:57:56,280 - Extracción exitosa
+2024-07-05 12:58:01,740 - Datos limpios y transformados
+2024-07-05 12:58:01,740 - Iniciando carga de datos...
+2024-07-05 12:58:03,349 - Fragmento 1 de 96 cargado
+2024-07-05 12:58:04,760 - Fragmento 2 de 96 cargado
+2024-07-05 12:58:06,224 - Fragmento 3 de 96 cargado
+2024-07-05 12:58:07,662 - Fragmento 4 de 96 cargado
+2024-07-05 12:58:09,111 - Fragmento 5 de 96 cargado
+2024-07-05 12:58:10,591 - Fragmento 6 de 96 cargado
+2024-07-05 12:58:12,035 - Fragmento 7 de 96 cargado
+2024-07-05 12:58:13,504 - Fragmento 8 de 96 cargado
+2024-07-05 12:58:14,937 - Fragmento 9 de 96 cargado
+2024-07-05 12:58:16,390 - Fragmento 10 de 96 cargado
+2024-07-05 12:58:17,827 - Fragmento 11 de 96 cargado
+2024-07-05 12:58:19,241 - Fragmento 12 de 96 cargado
+2024-07-05 12:58:20,651 - Fragmento 13 de 96 cargado
+2024-07-05 12:58:22,092 - Fragmento 14 de 96 cargado
+2024-07-05 12:58:23,531 - Fragmento 15 de 96 cargado
+2024-07-05 12:58:24,934 - Fragmento 16 de 96 cargado
+2024-07-05 12:58:26,383 - Fragmento 17 de 96 cargado
+2024-07-05 12:58:27,789 - Fragmento 18 de 96 cargado
+2024-07-05 12:58:29,233 - Fragmento 19 de 96 cargado
+2024-07-05 12:58:30,684 - Fragmento 20 de 96 cargado
+2024-07-05 12:58:32,094 - Fragmento 21 de 96 cargado
+2024-07-05 12:58:33,540 - Fragmento 22 de 96 cargado
+2024-07-05 12:58:35,059 - Fragmento 23 de 96 cargado
+2024-07-05 12:58:36,570 - Fragmento 24 de 96 cargado
+2024-07-05 12:58:38,082 - Fragmento 25 de 96 cargado
+2024-07-05 12:58:39,605 - Fragmento 26 de 96 cargado
+2024-07-05 12:58:40,989 - Fragmento 27 de 96 cargado
+2024-07-05 12:58:42,434 - Fragmento 28 de 96 cargado
+2024-07-05 12:58:43,845 - Fragmento 29 de 96 cargado
+2024-07-05 12:58:45,258 - Fragmento 30 de 96 cargado
+2024-07-05 12:58:46,744 - Fragmento 31 de 96 cargado
+2024-07-05 12:58:48,152 - Fragmento 32 de 96 cargado
+2024-07-05 12:58:49,565 - Fragmento 33 de 96 cargado
+2024-07-05 12:58:51,069 - Fragmento 34 de 96 cargado
+2024-07-05 12:58:52,503 - Fragmento 35 de 96 cargado
+2024-07-05 12:58:54,039 - Fragmento 36 de 96 cargado
+2024-07-05 12:58:55,544 - Fragmento 37 de 96 cargado
+2024-07-05 12:58:57,058 - Fragmento 38 de 96 cargado
+2024-07-05 12:58:58,517 - Fragmento 39 de 96 cargado
+2024-07-05 12:59:00,048 - Fragmento 40 de 96 cargado
+2024-07-05 12:59:01,509 - Fragmento 41 de 96 cargado
+2024-07-05 12:59:02,955 - Fragmento 42 de 96 cargado
+2024-07-05 12:59:04,423 - Fragmento 43 de 96 cargado
+2024-07-05 12:59:05,811 - Fragmento 44 de 96 cargado
+2024-07-05 12:59:07,282 - Fragmento 45 de 96 cargado
+2024-07-05 12:59:08,684 - Fragmento 46 de 96 cargado
+2024-07-05 12:59:10,120 - Fragmento 47 de 96 cargado
+2024-07-05 12:59:11,538 - Fragmento 48 de 96 cargado
+2024-07-05 12:59:12,937 - Fragmento 49 de 96 cargado
+2024-07-05 12:59:14,497 - Fragmento 50 de 96 cargado
+2024-07-05 12:59:16,033 - Fragmento 51 de 96 cargado
+2024-07-05 12:59:17,431 - Fragmento 52 de 96 cargado
+2024-07-05 12:59:18,855 - Fragmento 53 de 96 cargado
+2024-07-05 12:59:20,313 - Fragmento 54 de 96 cargado
+2024-07-05 12:59:21,722 - Fragmento 55 de 96 cargado
+2024-07-05 12:59:23,118 - Fragmento 56 de 96 cargado
+2024-07-05 12:59:24,545 - Fragmento 57 de 96 cargado
+2024-07-05 12:59:25,940 - Fragmento 58 de 96 cargado
+2024-07-05 12:59:27,316 - Fragmento 59 de 96 cargado
+2024-07-05 12:59:28,768 - Fragmento 60 de 96 cargado
+2024-07-05 12:59:30,155 - Fragmento 61 de 96 cargado
+2024-07-05 12:59:31,610 - Fragmento 62 de 96 cargado
+2024-07-05 12:59:33,033 - Fragmento 63 de 96 cargado
+2024-07-05 12:59:34,451 - Fragmento 64 de 96 cargado
+2024-07-05 12:59:35,957 - Fragmento 65 de 96 cargado
+2024-07-05 12:59:37,404 - Fragmento 66 de 96 cargado
+2024-07-05 12:59:38,833 - Fragmento 67 de 96 cargado
+2024-07-05 12:59:40,354 - Fragmento 68 de 96 cargado
+2024-07-05 12:59:41,867 - Fragmento 69 de 96 cargado
+2024-07-05 12:59:43,409 - Fragmento 70 de 96 cargado
+2024-07-05 12:59:44,910 - Fragmento 71 de 96 cargado
+2024-07-05 12:59:46,367 - Fragmento 72 de 96 cargado
+2024-07-05 12:59:47,796 - Fragmento 73 de 96 cargado
+2024-07-05 12:59:49,260 - Fragmento 74 de 96 cargado
+2024-07-05 12:59:50,667 - Fragmento 75 de 96 cargado
+2024-07-05 12:59:52,064 - Fragmento 76 de 96 cargado
+2024-07-05 12:59:53,514 - Fragmento 77 de 96 cargado
+2024-07-05 12:59:54,926 - Fragmento 78 de 96 cargado
+2024-07-05 12:59:56,355 - Fragmento 79 de 96 cargado
+2024-07-05 12:59:57,743 - Fragmento 80 de 96 cargado
+2024-07-05 12:59:59,212 - Fragmento 81 de 96 cargado
+2024-07-05 13:00:00,643 - Fragmento 82 de 96 cargado
+2024-07-05 13:00:02,102 - Fragmento 83 de 96 cargado
+2024-07-05 13:00:03,578 - Fragmento 84 de 96 cargado
+2024-07-05 13:00:05,090 - Fragmento 85 de 96 cargado
+2024-07-05 13:00:06,573 - Fragmento 86 de 96 cargado
+2024-07-05 13:00:08,090 - Fragmento 87 de 96 cargado
+2024-07-05 13:00:09,564 - Fragmento 88 de 96 cargado
+2024-07-05 13:00:11,033 - Fragmento 89 de 96 cargado
+2024-07-05 13:00:12,560 - Fragmento 90 de 96 cargado
+2024-07-05 13:00:13,982 - Fragmento 91 de 96 cargado
+2024-07-05 13:00:15,439 - Fragmento 92 de 96 cargado
+2024-07-05 13:00:16,888 - Fragmento 93 de 96 cargado
+2024-07-05 13:00:18,407 - Fragmento 94 de 96 cargado
+2024-07-05 13:00:19,860 - Fragmento 95 de 96 cargado
+2024-07-05 13:00:20,131 - Fragmento 96 de 96 cargado
+2024-07-05 13:00:20,131 - Datos cargados a la base de datos final de SQL Server
+2024-07-05 13:00:20,132 - Conexión cerrada

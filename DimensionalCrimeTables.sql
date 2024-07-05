@@ -40,7 +40,7 @@ CREATE TABLE FactCrime (
     DR_NO VARCHAR(100) PRIMARY KEY,
     Date_Rptd_Id INT,
     DATE_OCC DATE,
-    TIME_OCC TIME,
+    TIME_OCC INT,
     AREA TINYINT,
     Rpt_Dist_No SMALLINT,
     Part_1_2 TINYINT,
