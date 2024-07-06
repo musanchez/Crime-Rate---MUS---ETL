@@ -11,8 +11,10 @@ CREATE TABLE DimVictDescent (
 
 
 CREATE TABLE DimDateRptd (
-    Date_Rptd_Id INT PRIMARY KEY,
-    Date_Rptd DATE
+    Date_Rptd DATE PRIMARY KEY,
+    Day SMALLINT,
+    Month SMALLINT,
+    Year SMALLINT,
 );
 
 
@@ -38,7 +40,7 @@ CREATE TABLE DimPremis (
 
 CREATE TABLE FactCrime (
     DR_NO VARCHAR(100) PRIMARY KEY,
-    Date_Rptd_Id INT,
+    Date_Rptd DATE,
     DATE_OCC DATE,
     TIME_OCC INT,
     AREA TINYINT,
@@ -56,7 +58,7 @@ CREATE TABLE FactCrime (
     Cross_Street NVARCHAR(MAX),
     LAT DECIMAL(8,4),
     LON DECIMAL(8,4),
-    CONSTRAINT FK_FactCrime_DimDateRptd FOREIGN KEY (Date_Rptd_Id) REFERENCES DimDateRptd(Date_Rptd_Id),
+    CONSTRAINT FK_FactCrime_DimDateRptd FOREIGN KEY (Date_Rptd) REFERENCES DimDateRptd(Date_Rptd),
     CONSTRAINT FK_FactCrime_DimArea FOREIGN KEY (AREA) REFERENCES DimArea(AREA),
     CONSTRAINT FK_FactCrime_DimVictSex FOREIGN KEY (Vict_Sex_Id) REFERENCES DimVictSex(Vict_Sex_Id),
     CONSTRAINT FK_FactCrime_DimVictDescent FOREIGN KEY (Vict_Descent_Id) REFERENCES DimVictDescent(Vict_Descent_Id),

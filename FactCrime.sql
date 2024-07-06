@@ -1,6 +1,6 @@
 SELECT 
     cd.DR_NO,
-    dr.Date_Rptd_Id,
+    cd.Date_Rptd,
     cd.DATE_OCC,
     cd.TIME_OCC,
     cd.AREA,
@@ -19,6 +19,5 @@ SELECT
     cd.LAT,
     cd.LON
 FROM Crime.dbo.CrimeData cd
-LEFT JOIN DimensionalCrime.dbo.DimDateRptd dr ON cd.Date_Rptd = dr.Date_Rptd
 LEFT JOIN DimensionalCrime.dbo.DimVictSex vs ON cd.Vict_Sex = vs.Vict_Sex
 LEFT JOIN DimensionalCrime.dbo.DimVictDescent vd ON cd.Vict_Descent = vd.Vict_Descent;

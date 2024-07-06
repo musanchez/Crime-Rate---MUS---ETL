@@ -44,7 +44,7 @@ try:
         logging.info(f"Insertando datos en la tabla '{table_name}'.")
         
         # Verificar si la tabla tiene una primary key generada
-        has_identity = table_name in ['DimVictSex', 'DimDateRptd', 'DimVictDescent']
+        has_identity = table_name in ['DimVictSex', 'DimVictDescent']
         
         if has_identity:
             id = 1
