@@ -17,6 +17,10 @@ CREATE TABLE DimDateRptd (
     Year SMALLINT,
 );
 
+CREATE TABLE DimCrime (
+    Crm_Cd SMALLINT PRIMARY KEY,
+    Crm_Desc NVARCHAR(100)
+);
 
 CREATE TABLE DimArea (
     AREA TINYINT PRIMARY KEY,
