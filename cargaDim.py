@@ -21,7 +21,7 @@ try:
     conn = pyodbc.connect(connection_string, autocommit=True)
     cursor = conn.cursor()
     
-    dim_sql_files = ['DimArea.sql', 'DimDateRptd.sql', 'DimPremis.sql', 'DimStatus.sql', 'DimVictDescent.sql', 'DimVictSex.sql', 'DimWeapon.sql']
+    dim_sql_files = ['DimArea.sql', 'DimDateRptd.sql', 'DimPremis.sql', 'DimStatus.sql', 'DimVictDescent.sql', 'DimVictSex.sql', 'DimWeapon.sql', 'DimCrime.sql']
     
     origen = 'Crime'
     destino = 'DimensionalCrime'

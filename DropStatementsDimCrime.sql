@@ -21,3 +21,6 @@ IF OBJECT_ID('DimStatus', 'U') IS NOT NULL
 
 IF OBJECT_ID('DimPremis', 'U') IS NOT NULL
     DROP TABLE DimPremis;
+
+IF OBJECT_ID('DimCrime', 'U') IS NOT NULL
+    DROP TABLE DimCrime;
