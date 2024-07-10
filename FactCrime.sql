@@ -19,5 +19,5 @@ SELECT
     cd.LAT,
     cd.LON
 FROM Crime.dbo.CrimeData cd
-LEFT JOIN DimensionalCrime.dbo.DimVictSex vs ON cd.Vict_Sex = vs.Vict_Sex
-LEFT JOIN DimensionalCrime.dbo.DimVictDescent vd ON cd.Vict_Descent = vd.Vict_Descent;
+LEFT JOIN DimensionalCrime.dbo.DimVictSex vs ON cd.Vict_Sex COLLATE Modern_Spanish_CI_AS  =  vs.Vict_Sex COLLATE Modern_Spanish_CI_AS
+LEFT JOIN DimensionalCrime.dbo.DimVictDescent vd ON cd.Vict_Descent COLLATE Modern_Spanish_CI_AS = vd.Vict_Descent COLLATE Modern_Spanish_CI_AS
