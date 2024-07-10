@@ -1,159 +1,159 @@
-2024-07-09 21:29:44,693 - INFO - Intentando conectar a la base de datos...
-2024-07-09 21:29:44,724 - INFO - Ejecutando script: CrimeData.sql
-2024-07-09 21:29:44,733 - INFO - Script ejecutado correctamente: CrimeData.sql
-2024-07-09 21:29:44,734 - INFO - Ejecutando script: DimensionalCrime.sql
-2024-07-09 21:29:44,947 - INFO - Script ejecutado correctamente: DimensionalCrime.sql
-2024-07-09 21:29:44,948 - INFO - Ejecutando script: DropStatementsDimCrime.sql
-2024-07-09 21:29:44,949 - INFO - Script ejecutado correctamente: DropStatementsDimCrime.sql
-2024-07-09 21:29:44,950 - INFO - Ejecutando script: DimensionalCrimeTables.sql
-2024-07-09 21:29:44,969 - INFO - Script ejecutado correctamente: DimensionalCrimeTables.sql
-2024-07-09 21:29:44,970 - INFO - Conexión cerrada.
-2024-07-09 21:29:46,020 - Intentando conectar a la base de datos...
-2024-07-09 21:29:46,045 - Ejecutando SQL: SELECT * FROM StagingCrimeData
-2024-07-09 21:30:24,025 - Extracción exitosa
-2024-07-09 21:30:32,362 - Datos limpios y transformados
-2024-07-09 21:30:32,362 - Iniciando carga de datos...
-2024-07-09 21:30:34,489 - Fragmento 1 de 96 cargado
-2024-07-09 21:30:36,457 - Fragmento 2 de 96 cargado
-2024-07-09 21:30:38,378 - Fragmento 3 de 96 cargado
-2024-07-09 21:30:40,361 - Fragmento 4 de 96 cargado
-2024-07-09 21:30:42,469 - Fragmento 5 de 96 cargado
-2024-07-09 21:30:44,565 - Fragmento 6 de 96 cargado
-2024-07-09 21:30:46,540 - Fragmento 7 de 96 cargado
-2024-07-09 21:30:48,648 - Fragmento 8 de 96 cargado
-2024-07-09 21:30:50,553 - Fragmento 9 de 96 cargado
-2024-07-09 21:30:52,518 - Fragmento 10 de 96 cargado
-2024-07-09 21:30:54,843 - Fragmento 11 de 96 cargado
-2024-07-09 21:30:56,888 - Fragmento 12 de 96 cargado
-2024-07-09 21:30:59,022 - Fragmento 13 de 96 cargado
-2024-07-09 21:31:01,894 - Fragmento 14 de 96 cargado
-2024-07-09 21:31:04,971 - Fragmento 15 de 96 cargado
-2024-07-09 21:31:07,733 - Fragmento 16 de 96 cargado
-2024-07-09 21:31:10,959 - Fragmento 17 de 96 cargado
-2024-07-09 21:31:14,095 - Fragmento 18 de 96 cargado
-2024-07-09 21:31:16,160 - Fragmento 19 de 96 cargado
-2024-07-09 21:31:18,258 - Fragmento 20 de 96 cargado
-2024-07-09 21:31:20,099 - Fragmento 21 de 96 cargado
-2024-07-09 21:31:22,170 - Fragmento 22 de 96 cargado
-2024-07-09 21:31:24,352 - Fragmento 23 de 96 cargado
-2024-07-09 21:31:26,885 - Fragmento 24 de 96 cargado
-2024-07-09 21:31:30,079 - Fragmento 25 de 96 cargado
-2024-07-09 21:31:31,969 - Fragmento 26 de 96 cargado
-2024-07-09 21:31:33,786 - Fragmento 27 de 96 cargado
-2024-07-09 21:31:35,545 - Fragmento 28 de 96 cargado
-2024-07-09 21:31:37,427 - Fragmento 29 de 96 cargado
-2024-07-09 21:31:40,057 - Fragmento 30 de 96 cargado
-2024-07-09 21:31:42,111 - Fragmento 31 de 96 cargado
-2024-07-09 21:31:43,847 - Fragmento 32 de 96 cargado
-2024-07-09 21:31:46,056 - Fragmento 33 de 96 cargado
-2024-07-09 21:31:48,163 - Fragmento 34 de 96 cargado
-2024-07-09 21:31:49,905 - Fragmento 35 de 96 cargado
-2024-07-09 21:31:51,628 - Fragmento 36 de 96 cargado
-2024-07-09 21:31:53,403 - Fragmento 37 de 96 cargado
-2024-07-09 21:31:55,137 - Fragmento 38 de 96 cargado
-2024-07-09 21:31:56,851 - Fragmento 39 de 96 cargado
-2024-07-09 21:31:58,653 - Fragmento 40 de 96 cargado
-2024-07-09 21:32:00,465 - Fragmento 41 de 96 cargado
-2024-07-09 21:32:02,206 - Fragmento 42 de 96 cargado
-2024-07-09 21:32:03,925 - Fragmento 43 de 96 cargado
-2024-07-09 21:32:05,813 - Fragmento 44 de 96 cargado
-2024-07-09 21:32:07,575 - Fragmento 45 de 96 cargado
-2024-07-09 21:32:09,287 - Fragmento 46 de 96 cargado
-2024-07-09 21:32:11,055 - Fragmento 47 de 96 cargado
-2024-07-09 21:32:12,800 - Fragmento 48 de 96 cargado
-2024-07-09 21:32:14,444 - Fragmento 49 de 96 cargado
-2024-07-09 21:32:16,080 - Fragmento 50 de 96 cargado
-2024-07-09 21:32:17,781 - Fragmento 51 de 96 cargado
-2024-07-09 21:32:19,435 - Fragmento 52 de 96 cargado
-2024-07-09 21:32:21,101 - Fragmento 53 de 96 cargado
-2024-07-09 21:32:22,828 - Fragmento 54 de 96 cargado
-2024-07-09 21:32:24,534 - Fragmento 55 de 96 cargado
-2024-07-09 21:32:26,216 - Fragmento 56 de 96 cargado
-2024-07-09 21:32:27,956 - Fragmento 57 de 96 cargado
-2024-07-09 21:32:29,894 - Fragmento 58 de 96 cargado
-2024-07-09 21:32:31,584 - Fragmento 59 de 96 cargado
-2024-07-09 21:32:33,915 - Fragmento 60 de 96 cargado
-2024-07-09 21:32:35,944 - Fragmento 61 de 96 cargado
-2024-07-09 21:32:39,263 - Fragmento 62 de 96 cargado
-2024-07-09 21:32:41,816 - Fragmento 63 de 96 cargado
-2024-07-09 21:32:43,869 - Fragmento 64 de 96 cargado
-2024-07-09 21:32:46,004 - Fragmento 65 de 96 cargado
-2024-07-09 21:32:47,729 - Fragmento 66 de 96 cargado
-2024-07-09 21:32:49,493 - Fragmento 67 de 96 cargado
-2024-07-09 21:32:51,433 - Fragmento 68 de 96 cargado
-2024-07-09 21:32:53,103 - Fragmento 69 de 96 cargado
-2024-07-09 21:32:54,907 - Fragmento 70 de 96 cargado
-2024-07-09 21:32:56,907 - Fragmento 71 de 96 cargado
-2024-07-09 21:32:58,604 - Fragmento 72 de 96 cargado
-2024-07-09 21:33:00,280 - Fragmento 73 de 96 cargado
-2024-07-09 21:33:02,129 - Fragmento 74 de 96 cargado
-2024-07-09 21:33:03,828 - Fragmento 75 de 96 cargado
-2024-07-09 21:33:05,517 - Fragmento 76 de 96 cargado
-2024-07-09 21:33:07,244 - Fragmento 77 de 96 cargado
-2024-07-09 21:33:08,919 - Fragmento 78 de 96 cargado
-2024-07-09 21:33:10,614 - Fragmento 79 de 96 cargado
-2024-07-09 21:33:12,344 - Fragmento 80 de 96 cargado
-2024-07-09 21:33:14,057 - Fragmento 81 de 96 cargado
-2024-07-09 21:33:15,724 - Fragmento 82 de 96 cargado
-2024-07-09 21:33:17,306 - Fragmento 83 de 96 cargado
-2024-07-09 21:33:19,011 - Fragmento 84 de 96 cargado
-2024-07-09 21:33:20,832 - Fragmento 85 de 96 cargado
-2024-07-09 21:33:22,561 - Fragmento 86 de 96 cargado
-2024-07-09 21:33:24,335 - Fragmento 87 de 96 cargado
-2024-07-09 21:33:25,976 - Fragmento 88 de 96 cargado
-2024-07-09 21:33:27,615 - Fragmento 89 de 96 cargado
-2024-07-09 21:33:29,386 - Fragmento 90 de 96 cargado
-2024-07-09 21:33:31,303 - Fragmento 91 de 96 cargado
-2024-07-09 21:33:33,135 - Fragmento 92 de 96 cargado
-2024-07-09 21:33:34,947 - Fragmento 93 de 96 cargado
-2024-07-09 21:33:36,785 - Fragmento 94 de 96 cargado
-2024-07-09 21:33:38,492 - Fragmento 95 de 96 cargado
-2024-07-09 21:33:38,867 - Fragmento 96 de 96 cargado
-2024-07-09 21:33:38,867 - Datos cargados a la base de datos final de SQL Server
-2024-07-09 21:33:38,867 - Conexión cerrada
-2024-07-09 21:33:39,665 - INFO - Ejecutando script 'DimArea.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:39,906 - INFO - Script 'DimArea.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:39,906 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimArea.sql'.
-2024-07-09 21:33:39,907 - INFO - Insertando datos en la tabla 'DimArea'.
-2024-07-09 21:33:39,937 - INFO - Insertadas 21 filas en 'DimArea'.
-2024-07-09 21:33:39,938 - INFO - Ejecutando script 'DimDateRptd.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:40,263 - INFO - Script 'DimDateRptd.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:40,270 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimDateRptd.sql'.
-2024-07-09 21:33:40,271 - INFO - Insertando datos en la tabla 'DimDateRptd'.
-2024-07-09 21:33:40,845 - INFO - Insertadas 1623 filas en 'DimDateRptd'.
-2024-07-09 21:33:40,852 - INFO - Ejecutando script 'DimPremis.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:41,130 - INFO - Script 'DimPremis.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:41,131 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimPremis.sql'.
-2024-07-09 21:33:41,132 - INFO - Insertando datos en la tabla 'DimPremis'.
-2024-07-09 21:33:41,339 - INFO - Insertadas 308 filas en 'DimPremis'.
-2024-07-09 21:33:41,345 - INFO - Ejecutando script 'DimStatus.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:42,405 - INFO - Script 'DimStatus.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:42,405 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimStatus.sql'.
-2024-07-09 21:33:42,406 - INFO - Insertando datos en la tabla 'DimStatus'.
-2024-07-09 21:33:42,417 - INFO - Insertadas 6 filas en 'DimStatus'.
-2024-07-09 21:33:42,418 - INFO - Ejecutando script 'DimVictDescent.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:42,606 - INFO - Script 'DimVictDescent.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:42,606 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictDescent.sql'.
-2024-07-09 21:33:42,607 - INFO - Insertando datos en la tabla 'DimVictDescent'.
-2024-07-09 21:33:42,617 - INFO - Insertadas 20 filas en 'DimVictDescent'
-2024-07-09 21:33:42,617 - INFO - Ejecutando script 'DimVictSex.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:42,809 - INFO - Script 'DimVictSex.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:42,809 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictSex.sql'.
-2024-07-09 21:33:42,810 - INFO - Insertando datos en la tabla 'DimVictSex'.
-2024-07-09 21:33:42,816 - INFO - Insertadas 5 filas en 'DimVictSex'
-2024-07-09 21:33:42,816 - INFO - Ejecutando script 'DimWeapon.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:43,157 - INFO - Script 'DimWeapon.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:43,158 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimWeapon.sql'.
-2024-07-09 21:33:43,158 - INFO - Insertando datos en la tabla 'DimWeapon'.
-2024-07-09 21:33:43,252 - INFO - Insertadas 80 filas en 'DimWeapon'.
-2024-07-09 21:33:43,252 - INFO - Ejecutando script 'DimCrime.sql' en la base de datos 'Crime'.
-2024-07-09 21:33:43,544 - INFO - Script 'DimCrime.sql' ejecutado correctamente en 'Crime'.
-2024-07-09 21:33:43,545 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimCrime.sql'.
-2024-07-09 21:33:43,546 - INFO - Insertando datos en la tabla 'DimCrime'.
-2024-07-09 21:33:43,697 - INFO - Insertadas 139 filas en 'DimCrime'.
-2024-07-09 21:33:43,697 - INFO - Conexión cerrada.
-2024-07-09 21:33:43,844 - INFO - Intentando conectar a la base de datos...
-2024-07-09 21:33:43,885 - INFO - Ejecutando script SQL: FactCrime.sql
-2024-07-09 21:34:00,973 - INFO - Cambiando a la base de datos destino: DimensionalCrime
-2024-07-09 21:42:27,586 - INFO - Insertados registros en FactCrime
-2024-07-09 21:42:27,586 - INFO - Conexión cerrada.
+2024-07-10 09:24:45,929 - INFO - Intentando conectar a la base de datos...
+2024-07-10 09:24:45,966 - INFO - Ejecutando script: CrimeData.sql
+2024-07-10 09:24:45,970 - INFO - Script ejecutado correctamente: CrimeData.sql
+2024-07-10 09:24:45,971 - INFO - Ejecutando script: DimensionalCrime.sql
+2024-07-10 09:24:46,117 - INFO - Script ejecutado correctamente: DimensionalCrime.sql
+2024-07-10 09:24:46,118 - INFO - Ejecutando script: DropStatementsDimCrime.sql
+2024-07-10 09:24:46,124 - INFO - Script ejecutado correctamente: DropStatementsDimCrime.sql
+2024-07-10 09:24:46,125 - INFO - Ejecutando script: DimensionalCrimeTables.sql
+2024-07-10 09:24:46,145 - INFO - Script ejecutado correctamente: DimensionalCrimeTables.sql
+2024-07-10 09:24:46,146 - INFO - Conexión cerrada.
+2024-07-10 09:24:47,090 - Intentando conectar a la base de datos...
+2024-07-10 09:24:47,109 - Ejecutando SQL: SELECT * FROM StagingCrimeData
+2024-07-10 09:25:12,044 - Extracción exitosa
+2024-07-10 09:25:17,828 - Datos limpios y transformados
+2024-07-10 09:25:17,828 - Iniciando carga de datos...
+2024-07-10 09:25:19,535 - Fragmento 1 de 96 cargado
+2024-07-10 09:25:21,044 - Fragmento 2 de 96 cargado
+2024-07-10 09:25:22,428 - Fragmento 3 de 96 cargado
+2024-07-10 09:25:23,836 - Fragmento 4 de 96 cargado
+2024-07-10 09:25:25,324 - Fragmento 5 de 96 cargado
+2024-07-10 09:25:26,805 - Fragmento 6 de 96 cargado
+2024-07-10 09:25:28,310 - Fragmento 7 de 96 cargado
+2024-07-10 09:25:30,480 - Fragmento 8 de 96 cargado
+2024-07-10 09:25:31,894 - Fragmento 9 de 96 cargado
+2024-07-10 09:25:33,371 - Fragmento 10 de 96 cargado
+2024-07-10 09:25:35,361 - Fragmento 11 de 96 cargado
+2024-07-10 09:25:36,776 - Fragmento 12 de 96 cargado
+2024-07-10 09:25:38,131 - Fragmento 13 de 96 cargado
+2024-07-10 09:25:39,504 - Fragmento 14 de 96 cargado
+2024-07-10 09:25:40,861 - Fragmento 15 de 96 cargado
+2024-07-10 09:25:42,362 - Fragmento 16 de 96 cargado
+2024-07-10 09:25:44,373 - Fragmento 17 de 96 cargado
+2024-07-10 09:25:46,199 - Fragmento 18 de 96 cargado
+2024-07-10 09:25:47,794 - Fragmento 19 de 96 cargado
+2024-07-10 09:25:49,379 - Fragmento 20 de 96 cargado
+2024-07-10 09:25:50,993 - Fragmento 21 de 96 cargado
+2024-07-10 09:25:52,705 - Fragmento 22 de 96 cargado
+2024-07-10 09:25:54,337 - Fragmento 23 de 96 cargado
+2024-07-10 09:25:55,917 - Fragmento 24 de 96 cargado
+2024-07-10 09:25:57,594 - Fragmento 25 de 96 cargado
+2024-07-10 09:25:59,423 - Fragmento 26 de 96 cargado
+2024-07-10 09:26:01,608 - Fragmento 27 de 96 cargado
+2024-07-10 09:26:03,493 - Fragmento 28 de 96 cargado
+2024-07-10 09:26:05,095 - Fragmento 29 de 96 cargado
+2024-07-10 09:26:06,692 - Fragmento 30 de 96 cargado
+2024-07-10 09:26:08,202 - Fragmento 31 de 96 cargado
+2024-07-10 09:26:09,525 - Fragmento 32 de 96 cargado
+2024-07-10 09:26:10,864 - Fragmento 33 de 96 cargado
+2024-07-10 09:26:12,231 - Fragmento 34 de 96 cargado
+2024-07-10 09:26:13,606 - Fragmento 35 de 96 cargado
+2024-07-10 09:26:14,932 - Fragmento 36 de 96 cargado
+2024-07-10 09:26:16,352 - Fragmento 37 de 96 cargado
+2024-07-10 09:26:17,724 - Fragmento 38 de 96 cargado
+2024-07-10 09:26:19,041 - Fragmento 39 de 96 cargado
+2024-07-10 09:26:20,476 - Fragmento 40 de 96 cargado
+2024-07-10 09:26:21,797 - Fragmento 41 de 96 cargado
+2024-07-10 09:26:23,190 - Fragmento 42 de 96 cargado
+2024-07-10 09:26:24,587 - Fragmento 43 de 96 cargado
+2024-07-10 09:26:25,932 - Fragmento 44 de 96 cargado
+2024-07-10 09:26:27,377 - Fragmento 45 de 96 cargado
+2024-07-10 09:26:28,696 - Fragmento 46 de 96 cargado
+2024-07-10 09:26:30,067 - Fragmento 47 de 96 cargado
+2024-07-10 09:26:31,451 - Fragmento 48 de 96 cargado
+2024-07-10 09:26:32,774 - Fragmento 49 de 96 cargado
+2024-07-10 09:26:34,111 - Fragmento 50 de 96 cargado
+2024-07-10 09:26:35,481 - Fragmento 51 de 96 cargado
+2024-07-10 09:26:36,808 - Fragmento 52 de 96 cargado
+2024-07-10 09:26:38,134 - Fragmento 53 de 96 cargado
+2024-07-10 09:26:39,536 - Fragmento 54 de 96 cargado
+2024-07-10 09:26:40,895 - Fragmento 55 de 96 cargado
+2024-07-10 09:26:42,239 - Fragmento 56 de 96 cargado
+2024-07-10 09:26:43,622 - Fragmento 57 de 96 cargado
+2024-07-10 09:26:44,981 - Fragmento 58 de 96 cargado
+2024-07-10 09:26:46,317 - Fragmento 59 de 96 cargado
+2024-07-10 09:26:47,736 - Fragmento 60 de 96 cargado
+2024-07-10 09:26:49,080 - Fragmento 61 de 96 cargado
+2024-07-10 09:26:50,485 - Fragmento 62 de 96 cargado
+2024-07-10 09:26:51,880 - Fragmento 63 de 96 cargado
+2024-07-10 09:26:53,206 - Fragmento 64 de 96 cargado
+2024-07-10 09:26:54,592 - Fragmento 65 de 96 cargado
+2024-07-10 09:26:55,958 - Fragmento 66 de 96 cargado
+2024-07-10 09:26:57,366 - Fragmento 67 de 96 cargado
+2024-07-10 09:26:58,767 - Fragmento 68 de 96 cargado
+2024-07-10 09:27:00,147 - Fragmento 69 de 96 cargado
+2024-07-10 09:27:01,511 - Fragmento 70 de 96 cargado
+2024-07-10 09:27:02,861 - Fragmento 71 de 96 cargado
+2024-07-10 09:27:04,242 - Fragmento 72 de 96 cargado
+2024-07-10 09:27:05,602 - Fragmento 73 de 96 cargado
+2024-07-10 09:27:06,991 - Fragmento 74 de 96 cargado
+2024-07-10 09:27:08,368 - Fragmento 75 de 96 cargado
+2024-07-10 09:27:09,678 - Fragmento 76 de 96 cargado
+2024-07-10 09:27:11,118 - Fragmento 77 de 96 cargado
+2024-07-10 09:27:12,436 - Fragmento 78 de 96 cargado
+2024-07-10 09:27:13,760 - Fragmento 79 de 96 cargado
+2024-07-10 09:27:15,145 - Fragmento 80 de 96 cargado
+2024-07-10 09:27:16,539 - Fragmento 81 de 96 cargado
+2024-07-10 09:27:17,879 - Fragmento 82 de 96 cargado
+2024-07-10 09:27:19,236 - Fragmento 83 de 96 cargado
+2024-07-10 09:27:21,005 - Fragmento 84 de 96 cargado
+2024-07-10 09:27:22,518 - Fragmento 85 de 96 cargado
+2024-07-10 09:27:23,976 - Fragmento 86 de 96 cargado
+2024-07-10 09:27:25,536 - Fragmento 87 de 96 cargado
+2024-07-10 09:27:27,068 - Fragmento 88 de 96 cargado
+2024-07-10 09:27:28,561 - Fragmento 89 de 96 cargado
+2024-07-10 09:27:30,047 - Fragmento 90 de 96 cargado
+2024-07-10 09:27:31,416 - Fragmento 91 de 96 cargado
+2024-07-10 09:27:32,730 - Fragmento 92 de 96 cargado
+2024-07-10 09:27:34,057 - Fragmento 93 de 96 cargado
+2024-07-10 09:27:35,484 - Fragmento 94 de 96 cargado
+2024-07-10 09:27:36,821 - Fragmento 95 de 96 cargado
+2024-07-10 09:27:37,091 - Fragmento 96 de 96 cargado
+2024-07-10 09:27:37,092 - Datos cargados a la base de datos final de SQL Server
+2024-07-10 09:27:37,092 - Conexión cerrada
+2024-07-10 09:27:37,806 - INFO - Ejecutando script 'DimArea.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:37,979 - INFO - Script 'DimArea.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:37,979 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimArea.sql'.
+2024-07-10 09:27:37,979 - INFO - Insertando datos en la tabla 'DimArea'.
+2024-07-10 09:27:37,999 - INFO - Insertadas 21 filas en 'DimArea'.
+2024-07-10 09:27:38,000 - INFO - Ejecutando script 'DimDateRptd.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:38,193 - INFO - Script 'DimDateRptd.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:38,197 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimDateRptd.sql'.
+2024-07-10 09:27:38,198 - INFO - Insertando datos en la tabla 'DimDateRptd'.
+2024-07-10 09:27:38,649 - INFO - Insertadas 1623 filas en 'DimDateRptd'.
+2024-07-10 09:27:38,649 - INFO - Ejecutando script 'DimPremis.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:38,853 - INFO - Script 'DimPremis.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:38,853 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimPremis.sql'.
+2024-07-10 09:27:38,854 - INFO - Insertando datos en la tabla 'DimPremis'.
+2024-07-10 09:27:39,006 - INFO - Insertadas 308 filas en 'DimPremis'.
+2024-07-10 09:27:39,007 - INFO - Ejecutando script 'DimStatus.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:40,000 - INFO - Script 'DimStatus.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:40,000 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimStatus.sql'.
+2024-07-10 09:27:40,001 - INFO - Insertando datos en la tabla 'DimStatus'.
+2024-07-10 09:27:40,016 - INFO - Insertadas 6 filas en 'DimStatus'.
+2024-07-10 09:27:40,017 - INFO - Ejecutando script 'DimVictDescent.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:40,154 - INFO - Script 'DimVictDescent.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:40,154 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictDescent.sql'.
+2024-07-10 09:27:40,155 - INFO - Insertando datos en la tabla 'DimVictDescent'.
+2024-07-10 09:27:40,166 - INFO - Insertadas 20 filas en 'DimVictDescent'
+2024-07-10 09:27:40,167 - INFO - Ejecutando script 'DimVictSex.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:40,365 - INFO - Script 'DimVictSex.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:40,366 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimVictSex.sql'.
+2024-07-10 09:27:40,366 - INFO - Insertando datos en la tabla 'DimVictSex'.
+2024-07-10 09:27:40,372 - INFO - Insertadas 5 filas en 'DimVictSex'
+2024-07-10 09:27:40,372 - INFO - Ejecutando script 'DimWeapon.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:40,680 - INFO - Script 'DimWeapon.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:40,681 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimWeapon.sql'.
+2024-07-10 09:27:40,681 - INFO - Insertando datos en la tabla 'DimWeapon'.
+2024-07-10 09:27:40,755 - INFO - Insertadas 80 filas en 'DimWeapon'.
+2024-07-10 09:27:40,755 - INFO - Ejecutando script 'DimCrime.sql' en la base de datos 'Crime'.
+2024-07-10 09:27:41,036 - INFO - Script 'DimCrime.sql' ejecutado correctamente en 'Crime'.
+2024-07-10 09:27:41,036 - INFO - Cambiando a la base de datos 'DimensionalCrime' para insertar datos en la tabla 'DimCrime.sql'.
+2024-07-10 09:27:41,037 - INFO - Insertando datos en la tabla 'DimCrime'.
+2024-07-10 09:27:41,160 - INFO - Insertadas 139 filas en 'DimCrime'.
+2024-07-10 09:27:41,160 - INFO - Conexión cerrada.
+2024-07-10 09:27:41,292 - INFO - Intentando conectar a la base de datos...
+2024-07-10 09:27:41,328 - INFO - Ejecutando script SQL: FactCrime.sql
+2024-07-10 09:27:55,850 - INFO - Cambiando a la base de datos destino: DimensionalCrime
+2024-07-10 09:33:13,403 - INFO - Insertados registros en FactCrime
+2024-07-10 09:33:13,403 - INFO - Conexión cerrada.

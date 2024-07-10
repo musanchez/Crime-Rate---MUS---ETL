@@ -23,7 +23,6 @@ try:
     for file_name in sql_files:
         with open(file_name, 'r') as file:
             sql_script = file.read()
-        
         # Ejecutar el script SQL
         logging.info(f'Ejecutando script: {file_name}')
         cursor.execute(sql_script)
@@ -31,6 +30,13 @@ try:
 
 except Exception as e:
     logging.error(f"Error: {str(e)}")
+    file_name = 'DimensionalCrimeTables.sql'
+    with open(file_name, 'r') as file:
+            sql_script = file.read()
+    cursor.execute()
+    logging.info(f'Ejecutando script: {file_name}')
+    cursor.execute(sql_script)
+    logging.info(f'Script ejecutado correctamente: {file_name}')
 
 finally:
     if 'conn' in locals():
