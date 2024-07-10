@@ -1,3 +1,5 @@
+USE DimensionalCrime
+
 CREATE TABLE DimVictSex (
     Vict_Sex_Id SMALLINT PRIMARY KEY,
     Vict_Sex NVARCHAR(50)
