@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo extraer, transformar y cargar datos de crímen
 - **extraccion.py**: Este script se encarga de la limpieza y transformación de datos.
 - **cardaDim.py**: Script que carga los datos transformados en las tablas dimensionales.
 - **cargaFact.py**: Script que carga los datos en la tabla de hechos.
-- **extras**: Carpeta que contiene el diagrama del modelo dimensional y el enlace donde puede descargar el archivo .bak de la base de datoa con CSV importado.
+- **extras**: Carpeta que contiene el diagrama del modelo dimensional y el enlace donde puede descargar el archivo .bak de la base de datos con CSV importado.
 
 ## Ejecución del Proyecto
 
